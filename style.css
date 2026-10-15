@@ -1,9 +1,10 @@
 :root {
-    --cor-fundo: #EBF3FA;       /* Azul gelo bem suave e relaxante para o fundo */
-    --cor-principal: #FFFFFF;   /* Branco puro para destacar os cartões/caixas */
-    --cor-secundaria: #D0E3F7;  /* Azul pastel suave para bordas e botões secundários */
-    --cor-destaque: #007ACC;    /* Azul vibrante e moderno para botões ativos e seleções */
-    --cor-texto: #1C2D42;       /* Azul marinho bem escuro para garantir excelente leitura */
+    --cor-fundo: #EBF3FA;
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #D0E3F7;
+    --cor-destaque: #007ACC;
+    --cor-texto: #1C2D42;
+
 }
 
 body {
