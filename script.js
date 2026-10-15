@@ -6,80 +6,74 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que eu sair da escola, vou fazer alguma faculdade. Você acha que eu curso em qual faculdade?",
+        enunciado: "Assim que eu sair da escola, vou cursar Engenharia Mecânica. Em qual tipo de faculdade você acha que eu devo estudar?",
         alternativas: [
             {
-                texto: "Faculdade pública, como a Unioeste.",
+                texto: "Faculdade pública, como a Unioeste ou UTFPR.",
                 afirmacao: [
-                    "Acha mais interessante faculdades públicas.",
-                    "Não tem dinheiro para pagar faculdade particular.",
+                    "Acha mais vantajoso o ensino em universidades públicas.",
+                    "Busca foco em pesquisa e laboratórios de engenharia sem custo de mensalidade.",
                 ],
             },
             {
-                texto: "Faculdade privada, como a FAG.",
+                texto: "Faculdade privada, como a FAG ou PUCPR.",
                 afirmacao: [
-                   "Acha mais interessante faculdades privadas.",
-                   "Tem dinheiro para pagar mensalidade.",
+                    "Prefere a infraestrutura e redes de contatos de instituições privadas.",
+                    "Tem disponibilidade para investir em mensalidades acadêmicas.",
                 ],
-            },           
-            
+            },
         ],
-
     },
     {
-        enunciado: "E qual curso você acha que eu devo escolher, levando em consideração que eu gosto de biologia e gosto de ajudar as pessoas?",
+        enunciado: "Dentro da Engenharia Mecânica, qual área de atuação tem mais a ver com o meu perfil?",
         alternativas: [
             {
-                texto:"Cursos da área da saúde, como Medicina.",
-                afirmacao: "Gosta mais da área da saúde."
+                texto: "Setor automotivo, aeronáutico ou robótica industrial.",
+                afirmacao: "Sente forte atração por tecnologia de ponta e desenvolvimento de máquinas modernas."
             },
             {
-                texto: "Cursos da área de exatas, como as Engenharias, ou humanas, como Jornalismo.",
-                afirmacao: "Gosta mais da área de exatas."
+                texto: "Gestão de manutenção, climatização (HVAC) ou linhas de produção.",
+                afirmacao: "Prefere focar na eficiência operacional e gerenciamento de processos industriais."
             }
         ]
     },
     {
-        enunciado: "E qual especialização ou pós-graduação eu devo fazer?",
+        enunciado: "E qual pós-graduação ou especialização eu devo escolher para me destacar no mercado?",
         alternativas: [
             {
-                texto:"Ginecologia  obstetrícia caso o curso for Medicina.",
-                afirmacao:"Interesse na saúde da mulher e bebês."
+                texto: "Especialização em Robótica, Mecatrônica ou Simulação Computacional (FEA/CFD).",
+                afirmacao: "Tem interesse em projeto digital, automação e simulações avançadas."
             },
             {
-                texto:"Engenharia civil ou Repórter da RPC.",
-                afirmacao:"Interesse em outras áreas."
+                texto: "Especialização em Gestão de Projetos ou Engenharia de Segurança do Trabalho.",
+                afirmacao: "Visa posições de liderança, gestão de equipes e conformidade industrial."
             }
-            
         ]
     },
     {
-        enunciado: "Quando eu terminar meus estudos:",
+        enunciado: "Onde você imagina que devo exercer a profissão após me formar?",
         alternativas: [
             {
-                texto:"Ficar no Brasil, no Paraná ou em São Paulo.",
-                afirmacao:"Preefere território nacional."
+                texto: "Trabalhar em polos industriais no Brasil, como no Paraná ou em São Paulo.",
+                afirmacao: "Prefere construir carreira consolidada em grandes indústrias nacionais."
             },
             {
-                texto:"Ir para fora do Brasil, nos Estados Unidos ou na Itália.",
-                afirmacao:"Prefere território internacional."
+                texto: "Buscar oportunidades no exterior, como na Alemanha, Itália ou Estados Unidos.",
+                afirmacao: "Tem o objetivo de trabalhar no mercado internacional de engenharia."
             }
-            
         ]
     },
     {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Você tem um projeto de cálculo estrutural em grupo para entregar na semana que vem. O trabalho está atrasado e um colega usou uma IA para gerar todos os memoriais de cálculo, mas o resultado contém erros visíveis. O que você faz?",
         alternativas: [
             {
-                texto: "Fazer cursos de especialização.",
-                afirmacao:"Acha importante estudar."
+                texto: "Refazer os cálculos manualmente e validar cada etapa do projeto com o grupo.",
+                afirmacao: "Valoriza a precisão técnica e a responsabilidade com a segurança do projeto."
             },
             {
-                texto: "Não se especializar em nenhuma área.",
-                afirmacao:"Não vê necessidade no estudo."
+                texto: "Entregar o trabalho gerado pela IA como está para cumprir o prazo.",
+                afirmacao: "Priorizou a entrega rápida, sem checar os detalhes operacionais."
             }
-            
-            
         ]
     },
 ];
